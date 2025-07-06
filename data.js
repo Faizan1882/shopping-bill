@@ -1,4 +1,4 @@
-// All prices in pounds
+
 export const products = [
   { id: 'soup',   name: 'Soup',   price: 0.65 },
   { id: 'bread',  name: 'Bread',  price: 1.10 },
