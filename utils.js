@@ -1,6 +1,5 @@
 import { offers, products } from './data';
 
-// Convert array of product objects into {id: qty} map
 export const toQtyMap = items =>
   items.reduce((acc, { id }) => {
     acc[id] = (acc[id] || 0) + 1;
