@@ -7,12 +7,7 @@ export const products = [
   { id: 'butter', name: 'Butter', price: 1.20 },
 ];
 
-/*
- *  Offer catalogue
- *  -------------------------------------------------
- *  • Cheese  – Buy-1-Get-1-Free
- *  • Bread   – Buy-2 Soup, get 1 Bread at 50 % off
- */
+
 export const offers = {
   cheese: basket => {
     const qty = basket.cheese || 0;
